@@ -1,0 +1,63 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[LMIFTDIDriver]
+LMI_ResetMode=0x00000000
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[DebugChecksum]
+Checksum=255340484
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[struct_types]
+Fmt0=OS_TCB-PendStatus	3	0
+Fmt1=OS_TCB-Prio	3	0
+[Log file]
+LoggingEnabled=_ 1
+LogFile=_ "$PROJ_DIR$\LogFile1.log"
+Category=_ 0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Disassemble mode]
+mode=0
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\app.c}.346.1" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\app.c}.346.1" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\app.c}.346.1" 0 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$\app.c}.346.1" 0 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{$PROJ_DIR$\app.c}.346.1" 0 0 0 0 "" 0 ""
+Bp5=_ "STD_CODE" "{$PROJ_DIR$\app.c}.346.1" 0 0 0 0 "" 0 ""
+Bp6=_ "STD_CODE" "{$PROJ_DIR$\app.c}.346.1" 0 0 0 0 "" 0 ""
+Bp7=_ "STD_CODE" "{$PROJ_DIR$\app.c}.346.1" 0 0 0 0 "" 0 ""
+Bp8=_ "STD_CODE" "{$PROJ_DIR$\app.c}.346.1" 0 0 0 0 "" 0 ""
+Bp9=_ "STD_CODE" "{$PROJ_DIR$\app.c}.346.1" 0 0 0 0 "" 0 ""
+Bp10=_ "STD_CODE" "{$PROJ_DIR$\app.c}.346.1" 0 0 0 0 "" 0 ""
+Bp11=_ "STD_CODE" "{$PROJ_DIR$\app.c}.346.1" 0 0 0 0 "" 0 ""
+Bp12=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\..\..\uCOS-III\Source\os_mutex.c}.827.2" 0 0 0 0 "" 0 ""
+Bp13=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\..\..\uCOS-III\Source\os_task.c}.341.5" 0 0 0 0 "" 0 ""
+Bp14=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\..\..\uCOS-III\Source\os_mutex.c}.407.9" 0 0 0 0 "" 0 ""
+Count=15
+[Aliases]
+A0=_ "C:\Users\VijayaKumar\Desktop\Testing - Copy\test\cpe484_es6153\Micrium\Software\CPU\LuminaryMicro\DriverLib\driverlib\gpio.c" "C:\Users\Michele Xiloyannis\Desktop\EmbeddedOS\ce4053_source_code\ce4053\Micrium\Software\CPU\LuminaryMicro\DriverLib\driverlib\gpio.c"
+A1=_ "C:\Users\VijayaKumar\Desktop\Testing - Copy\test\cpe484_es6153\Micrium\Software\CPU\LuminaryMicro\DriverLib\driverlib\pwm.c" "C:\Users\Michele Xiloyannis\Desktop\EmbeddedOS\ce4053_source_code\ce4053\Micrium\Software\CPU\LuminaryMicro\DriverLib\driverlib\pwm.c"
+Count=2
+SuppressDialog=0
